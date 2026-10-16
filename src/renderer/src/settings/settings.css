@@ -1,0 +1,19 @@
+:root {
+  font-family: 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', system-ui, sans-serif;
+  color: #293548;
+  background: #f1f5f9;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  color-scheme: light;
+}
+*, *::before, *::after { box-sizing: border-box; }
+html, body, #app { width: 100%; height: 100%; margin: 0; padding: 0; overflow: hidden; }
+body { user-select: none; }
+button, input, select { font: inherit; }
+button { cursor: pointer; }
+button:focus-visible, input:focus-visible, select:focus-visible { outline: 2px solid #1476d4; outline-offset: 3px; }
+p, h1, h2, h3, strong, .save-feedback { overflow-wrap: anywhere; }
+::-webkit-scrollbar { width: 7px; height: 0; }
+::-webkit-scrollbar-thumb { background: #c8d1dd; border: 2px solid #f1f5f9; border-radius: 8px; }
+::-webkit-scrollbar-track { background: transparent; }

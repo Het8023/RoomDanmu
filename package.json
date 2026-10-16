@@ -1,0 +1,27 @@
+{
+    "name": "lan-danmaku",
+    "version": "0.1.0",
+    "description": "局域网桌面弹幕房间：全局热键输入，弹幕飘过同房间成员桌面",
+    "main": "./out/main/index.js",
+    "license": "MIT",
+    "scripts": {
+        "test": "node --test tests/*.test.cjs",
+        "dev": "electron-vite dev",
+        "build": "electron-vite build",
+        "start": "electron-vite preview",
+        "typecheck:node": "tsc --noEmit -p tsconfig.node.json --composite false",
+        "typecheck:web": "tsc --noEmit -p tsconfig.web.json --composite false",
+        "typecheck": "npm run typecheck:node && npm run typecheck:web"
+    },
+    "dependencies": {
+        "vue": "^3.5.13"
+    },
+    "devDependencies": {
+        "@types/node": "^22.10.5",
+        "@vitejs/plugin-vue": "^5.2.1",
+        "electron": "^36.2.0",
+        "electron-vite": "^3.1.0",
+        "typescript": "^5.7.3",
+        "vite": "^6.0.7"
+    }
+}
